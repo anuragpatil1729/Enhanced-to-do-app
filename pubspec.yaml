@@ -1,0 +1,38 @@
+name: todoapp
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^17.2.1
+  timezone: ^0.9.4
+  fl_chart: ^0.68.0
+  csv: ^6.0.0
+  path_provider: ^2.1.3
+  open_filex: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ✅ Recommended lint rules
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Optional: include assets if you add icons/sounds later
+  # assets:
+  #   - assets/icons/
+  #   - assets/sounds/
