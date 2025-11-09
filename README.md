@@ -30,5 +30,3 @@ The app also has a **Pomodoro timer**, **calendar view**, and **task reminders**
 
 ---
 
-## 📂 Project Structure
-
